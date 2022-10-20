@@ -2,7 +2,10 @@ module github.com/jerbob92/dependabot-go-test
 
 go 1.18
 
-require github.com/martini-contrib/throttle v0.0.0-00010101000000-000000000000
+require (
+	github.com/jinzhu/now v1.1.4
+	github.com/martini-contrib/throttle v0.0.0-00010101000000-000000000000
+)
 
 require (
 	github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0 // indirect
